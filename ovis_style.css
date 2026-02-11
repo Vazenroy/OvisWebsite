@@ -1,0 +1,36 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    text-align: center;
+}
+nav{
+    text-align: center;
+    background-color: darkgreen;
+}
+footer{
+    text-align: center;           
+}
+
+a:link {
+  color:rgb(226, 166, 15);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color:rgb(226, 166, 15);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color:orangered;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+}
