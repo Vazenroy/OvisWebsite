@@ -25,14 +25,15 @@ nav a, footer a{
 }
 
 a:link {
-  color: #105456;
-  background-color: transparent;
-  text-decoration: none;
+    color: #105456;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 a:visited {
-  background-color: transparent;
-  text-decoration: none;
+    color: #105456;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 a:hover {
