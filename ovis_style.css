@@ -51,6 +51,10 @@ nav a:hover{
     background-color: #E3CDB1;
 }
 
+table{
+    border-collapse: collapse;
+}
+
 .logo{
     border: 7px solid #C8C372;
     border-radius: 5%;
@@ -59,4 +63,29 @@ nav a:hover{
 .main{
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.officer_bio{
+    background-color: #C8C372;
+    border: 3px solid #1E4D2B;
+    padding: 10px;
+    padding-bottom: 97px;
+    margin: 5px;
+    width: 100%;
+}
+
+.officer_bio h4, p{
+    margin: 0px;
+}
+
+.officer_bio h3{
+    color: #006144;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.bio_img{
+    float: left;
+    margin-right: 10px;
+    border: 3px solid #006144;
 }
