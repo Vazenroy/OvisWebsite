@@ -88,3 +88,8 @@ table{
 .event li{
     margin: 10px;
 }
+
+.calendar_frame{
+    width: 100%;
+    height: 500px;
+}
