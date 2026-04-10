@@ -1,16 +1,27 @@
 body{
+    background-color: #E3CDB1;
+    margin: 0px;
+    padding: 0px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 header{
+    padding: 10px;
+    background-color: #1E4D2B;
+    color: #FFFFFF;
     text-align: center;
 }
 nav{
     text-align: center;
-    background-color: darkgreen;
+    font-size: medium;
+    background-color: #C8C372;
+    border-top: 5px solid #C8C372;
+    border-bottom: 5px solid #C8C372;
 }
-nav a{
+nav a, footer a{
+    border: 3px solid #C8C372;
+    background-color: #C8C372;
     margin-left: 10px;
-    margin-right: 10px
+    margin-right: 10px;
 }
 
 footer{
@@ -18,24 +29,34 @@ footer{
 }
 
 a:link {
-  color:rgb(226, 166, 15);
+  color: #105456;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color:rgb(226, 166, 15);
+  color:#105456;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color:orangered;
-  background-color: transparent;
-  text-decoration: underline;
+  color:#105456;
+  text-decoration: none;
+  border-radius: 10%;
 }
 
-.sticky {
-    position: fixed;
-    width: 100%;
+nav a:hover{
+    border: 3px solid  #E3CDB1;
+    background-color: #E3CDB1;
+}
+
+.logo{
+    border: 7px solid #C8C372;
+    border-radius: 5%;
+}
+
+.main{
+    padding-left: 10%;
+    padding-right: 10%;
 }
