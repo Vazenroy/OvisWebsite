@@ -73,7 +73,7 @@ table{
     width: 100%;
 }
 
-.officer_bio h4{
+.officer_bio h4, .event h4{
     margin: 0px;
 }
 
@@ -87,4 +87,14 @@ table{
     float: left;
     margin-right: 10px;
     border: 3px solid #006144;
+}
+
+.event{
+    background-color: #C8C372;
+    border: 3px solid #1E4D2B;
+    padding: 10px;
+}
+
+.event li{
+    margin: 10px;
 }
