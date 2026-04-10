@@ -10,7 +10,7 @@ header{
     color: #FFFFFF;
     text-align: center;
 }
-nav{
+nav, footer{
     text-align: center;
     font-size: medium;
     background-color: #C8C372;
@@ -22,10 +22,6 @@ nav a, footer a{
     background-color: #C8C372;
     margin-left: 10px;
     margin-right: 10px;
-}
-
-footer{
-    text-align: center;           
 }
 
 a:link {
@@ -41,9 +37,6 @@ a:visited {
 
 a:hover {
     text-decoration: none;
-}
-
-nav a:hover{
     border: 3px solid  #E3CDB1;
     background-color: #E3CDB1;
 }
