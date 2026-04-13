@@ -141,3 +141,11 @@ table{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.past_productions_li{
+    list-style: none;
+}
+
+.past_productions_li li{
+    margin-bottom: 10px;
+}
